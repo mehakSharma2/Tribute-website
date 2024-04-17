@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+     display: flex;
+    
+}
+
+.img-overlay{
+    width: 60%;
+    height: 500px;
+    background-image: url("kalam.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.quote{
+    width: 40%;
+    height: 500px;
+    background-color:rgba(255, 215, 0, 0.9);
+    text-align: center;
+    
+}
+
+.quote h1{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.quote h3{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.heading{
+    height: 72px;
+    background-color: linen;
+    display: flex;
+}
+
+.heading h2{
+    padding-left: 50px ;
+     padding-top: 25px;
+}
+
+/** timelines**/
+
+.timeline{
+    height: 1080px;
+    background-color: linen;
+    display: flex;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: gold;
+}
+
+.timeline li{
+    display:flex;
+    padding: 35px;
+    
+}
+
+.circle{
+    margin-left: 100px;
+}
+
+.content{
+    font-size: 1.2rem;
+    color: #0a100d;
+    margin-left: 50px;
+}
+
+/**quote**/
+
+/* .quote{
+    background-color: pink;
+    color: #054a29;
+    text-align: center;
+} */
+
+#quote{
+    background-color:#ffffff;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+#blockCode{
+    margin:30px,40px,30px,40px;
+    text-align: center;
+}
+.text{
+    width: 540px;
+    height: 122px;
+    font-size: 2rem;
+    color: #054a29;
+    font-weight: bold;
+}
+
+.saidBy{
+    text-align: right;
+    width: 540px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #054a29;
+}
+
+/****footer*****/
+
+.knowMore{
+    height: 21px;
+    padding: 16px;
+    background-color: linen;
+    text-align: center;
+}
+a{
+    text-decoration: underline;
+    color:#0a100d;
+    font-size: 1rem;
+}
+
+.madeBy{
+    height: 21px;
+    background-color: linen;
+    text-align: center;
+
+}
+
+.icon{
+    color: #e25555;
+}
+
+.madeBy a{
+    color:#e25555;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.border:hover{
+    border-radius: 5px;
+    border:2px solid rgba(255, 215, 0, 0.9);
+}
+
+
+
+
+
+
+
