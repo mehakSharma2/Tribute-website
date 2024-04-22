@@ -62,7 +62,8 @@
 .circle{
     height: 20px;
     width: 20px;
-    border-radius: 10px;
+    margin-left: 100px;
+    border-radius: 50%;
     background: gold;
 }
 
@@ -71,11 +72,9 @@
     padding: 35px;
     
 }
-
-.circle{
-    margin-left: 100px;
+.timeline{
+    padding-top: 20px;
 }
-
 .content{
     font-size: 1.2rem;
     color: #0a100d;
@@ -154,6 +153,8 @@ a{
     border-radius: 5px;
     border:2px solid rgba(255, 215, 0, 0.9);
 }
+
+
 
 
 
